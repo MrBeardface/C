@@ -11,7 +11,7 @@ int main(void)
 	counter1 = 0;
 
 	do {
-		printf("How much are you owed? ex(4.32)\n");
+		printf("How much are you owed? ex(4.32)\n");;
 		scanf("%f", &Owed);
 		num = Owed;
 	}while(Owed < 0);
